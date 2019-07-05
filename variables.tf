@@ -43,13 +43,13 @@ variable "node_type" {
 variable "number_of_nodes" {
   default     = 1
   description = "The number of compute nodes in the cluster."
-  type        = string
+  type        = number
 }
 
 variable "publicly_accessible" {
   default     = true
   description = "If true, the cluster can be accessed from a public network."
-  type        = string
+  type        = bool
 }
 
 variable "role_arns" {
