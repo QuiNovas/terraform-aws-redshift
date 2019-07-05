@@ -61,7 +61,7 @@ variable "role_arns" {
 variable "statement_timeout" {
   default     = 0
   description = "The value to assign to the PostgreSQL statement_timeout parameter."
-  type        = string
+  type        = number
 }
 
 variable "whitelist_cidr_blocks" {
