@@ -5,7 +5,7 @@ variable "availability_zones" {
 
 variable "availability_zones_count" {
   description = "The number of availability zones"
-  type        = string
+  type        = number
 }
 
 variable "cidr_block" {
